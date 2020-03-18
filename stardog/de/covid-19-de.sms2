@@ -1,0 +1,18 @@
+PREFIX cv: <http://covid-19.stardog.com/ns#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+MAPPING FROM CSV { }
+TO {
+   ?case
+        a :Case;
+        :date ?xsdDate;
+        :federatedState ?federatedState;
+        :district ?district;
+        geo:lat ?latitude;
+        geo:long ?longitude;
+        :source ?source
+}
+WHERE {
+    BIND(TEMPLATE("http://covid-19.stardog.com/id/de/{?No}") AS ?case)
+    BIND(xsd:date(?date) as ?xsdDate)
+}
