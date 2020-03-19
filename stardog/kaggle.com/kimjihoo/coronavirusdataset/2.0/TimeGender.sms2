@@ -1,0 +1,10 @@
+
+MAPPING FROM CSV TO { 
+    date
+    time
+    sex
+    confirmed
+    deceased
+} WHERE { 
+} 
+

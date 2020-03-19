@@ -1,0 +1,12 @@
+
+MAPPING FROM CSV TO { 
+    date
+    time
+    test
+    negative
+    confirmed
+    released
+    deceased
+} WHERE { 
+} 
+

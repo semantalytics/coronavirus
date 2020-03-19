@@ -1,0 +1,10 @@
+
+MAPPING FROM CSV TO { 
+    date
+    cold
+    flu
+    pneumonia
+    coronavirus
+} WHERE { 
+} 
+

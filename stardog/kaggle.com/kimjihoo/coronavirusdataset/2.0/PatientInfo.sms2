@@ -1,0 +1,27 @@
+
+MAPPING FROM CSV TO { 
+    ?patient a :Patient;
+        :global_num;
+        :sex ?sex;
+        :birthYear ?birth_year;
+        :age ?age;
+        :country ?country;
+        :province ?province;
+        :city ?city;
+        :disease ?disease;
+        :infectionCase ?infection_case;
+        :infectionOrder ?infection_order;
+        :infectedBy ?infected_by;
+        :contactNumber ?contact_number;
+        :symptomOnset_date ?symptomOnsetDate;
+        :confirmedDate ?confirmed_date;
+        :releasedDate ?released_date;
+        :deceasedDate ?deceased_date;
+        :state ?state;
+    .
+} WHERE { 
+        BIND(TEMPLATE(:patient_id) AS ?patient)
+        #fixup dates
+        #bind template for infectedBy
+} 
+

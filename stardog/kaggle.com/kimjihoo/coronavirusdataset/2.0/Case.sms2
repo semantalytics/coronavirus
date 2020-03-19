@@ -1,0 +1,15 @@
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+MAPPING FROM CSV TO {
+    ?case_id
+        a :Covid19Case;
+        :province ?province;
+        :city ?city;
+        :group ?group;
+        :infectionCase ?infection_case;
+        :confirmed ?confirmed;
+        geo:lat ?latitude;
+        geo:long ?longitude;
+   . 
+} WHERE {
+}

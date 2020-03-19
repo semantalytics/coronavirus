@@ -1,0 +1,12 @@
+
+MAPPING FROM CSV TO { 
+    patient_id
+    global_num
+    date
+    province
+    city
+    latitude
+    longitude
+} WHERE { 
+} 
+
