@@ -8,3 +8,4 @@
 - https://github.com/opencovid19-fr/data
 
 - http://open-source-covid-19.weileizeng.com/ opensource projects
+- https://github.com/nytimes/covid-19-data
