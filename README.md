@@ -9,3 +9,6 @@
 
 - http://open-source-covid-19.weileizeng.com/ opensource projects
 - https://github.com/nytimes/covid-19-data
+- [Thai covid data](https://github.com/COVID19-TCDG/Awesome-Thai-CoVid)
+- [awesome covid resources](https://github.com/adamdriscoll/awesome-covid19-resources)
+- [tokyo](https://github.com/tokyo-metropolitan-gov/covid19)
