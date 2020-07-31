@@ -12,3 +12,4 @@
 - [Thai covid data](https://github.com/COVID19-TCDG/Awesome-Thai-CoVid)
 - [awesome covid resources](https://github.com/adamdriscoll/awesome-covid19-resources)
 - [tokyo](https://github.com/tokyo-metropolitan-gov/covid19)
+- https://github.com/COVID19Tracking/covid19-datafetcher
