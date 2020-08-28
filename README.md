@@ -14,3 +14,6 @@
 - [tokyo](https://github.com/tokyo-metropolitan-gov/covid19)
 - https://github.com/COVID19Tracking/covid19-datafetcher
 - [kg-covid-19](https://github.com/Knowledge-Graph-Hub/kg-covid-19)
+
+- https://github.com/opencovid19-fr
+- https://github.com/pcm-dpc/COVID-19
